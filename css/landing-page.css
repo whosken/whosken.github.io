@@ -23,6 +23,8 @@ h6 {
 
 .topnav {
     font-size: 14px; 
+    background-color: #f8f8f8;
+    border-width: 0px;
 }
 
 .lead {
@@ -36,6 +38,7 @@ h6 {
     text-align: center;
     color: #f8f8f8;
     background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-color: #1e1e1e;
     background-size: cover;
 }
 
@@ -47,18 +50,18 @@ h6 {
 
 .intro-message > h1 {
     margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
     font-size: 5em;
 }
 
 .intro-divider {
     width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
+    /* border-top: 1px solid #f8f8f8; */
+    /* border-bottom: 1px solid rgba(0,0,0,0.2); */
 }
 
 .intro-message > h3 {
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+    /* text-shadow: 2px 2px 3px rgba(0,0,0,0.6); */
 }
 
 @media(max-width:767px) {
@@ -94,13 +97,16 @@ h6 {
 
 .content-section-a {
     padding: 50px 0;
-    background-color: #f8f8f8;
+    background-color: #333333; /* #f8f8f8 */
+    color: #f8f8f8;
 }
 
 .content-section-b {
     padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
+    /* border-top: 1px solid #e7e7e7; */
+    /* border-bottom: 1px solid #e7e7e7; */
+    background-color: #1e1e1e; /* #f8f8f8 */
+    color: #f8f8f8;
 }
 
 .section-heading {
@@ -131,7 +137,7 @@ h6 {
 }
 
 .banner-social-buttons {
-    text-align: center;
+    text-align: center; /* right */
     margin-top: 0;
 }
 
