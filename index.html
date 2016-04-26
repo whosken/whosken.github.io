@@ -9,7 +9,7 @@
     <meta name="description" content="Searching; in documents, data, tech, arts, entrepreneurship, world, love, and life.">
     <meta name="author" content="Ken Hu">
 
-    <title>Ken Hu: whosbacon</title>
+    <title>whosbacon: Ken Hu</title>
     
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -29,7 +29,7 @@
     <!-- Custom Fonts -->
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Lato:300,500,900' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,500,700,900' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:100,400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
 
@@ -60,10 +60,11 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="cv" title="CV"><i class="fa fa-file-text"></i></a></li>
+                    <li><a href="https://medium.com/@whosbacon" title="Blog"><i class="fa fa-pencil"></i></a></li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
                     <li>
                         <a class="page-scroll" href="#about">About</a>
                     </li>
@@ -71,12 +72,11 @@
                         <a class="page-scroll" href="#projects">Projects</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#journey">Journey</a>
+                        <a class="page-scroll" href="#experiences">Experiences</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#arts">Arts</a>
                     </li>
-                    <li><a href="cv">CV</a></li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
@@ -104,7 +104,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">About</h2>
-                    <h3 class="section-subheading text-muted">This is who I am.</h3>
+                    <h3 class="section-subheading text-muted">Who I am</h3>
                 </div>
                 <div class="col-sm-4 col-sm-offset-4">
                     <div class="team-member">
@@ -125,7 +125,7 @@
                     <p class="text-muted">I am a Python developer with data engineering background. My professional experiences ranges across API development, natural language processing, business intelligence dashboard, and machine learning. I also have strong interests in search engines and data visualization.</p>
                 </div>
                 <div class="col-md-4">
-                    <p class="text-muted">For my previous startup, I've built a social analytics product to analyze the Chinese social media Weibo. It would collect the social conversations surround a keyword and determine the prevailing emotions.</p>
+                    <p class="text-muted">For my previous startup, I've built a social analytics product with a bespoke NLP engine to analyze the Chinese social media. It would collect the social conversations surround a keyword and determine the prevailing emotions.</p>
                 </div>
             </div>
         </div>
@@ -137,18 +137,18 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Projects</h2>
-                    <h3 class="section-subheading text-muted">Some cool projects I've worked / am working on.</h3>
+                    <h3 class="section-subheading text-muted">Some cool projects I've worked / am working on</h3>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                    <a href="http://www.whosbacon.com/reversedict/" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-external-link fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/reversedict.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>ReverseDict</h4>
@@ -156,44 +156,72 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="http://www.whosbacon.com/datetimeutc/" class="portfolio-link">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
+                                <i class="fa fa-external-link fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Resumi</h4>
-                        <p class="text-muted">Service for synchronizing professional profiles</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/datetimeutc.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>datetimeutc</h4>
                         <p class="text-muted">Open source Python library for timezone handling</p>
                     </div>
                 </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="http://www.whosbacon.com/resumi/" class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/resumi.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Resumi</h4>
+                        <p class="text-muted">Sychronization service for professional profiles</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="https://decisive.is" class="portfolio-link">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-external-link fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/decisive.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Decisive</h4>
+                        <p class="text-muted">Predictive analytics for social marketing content</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolio-soshio" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/soshio.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Soshio</h4>
+                        <p class="text-muted">Social analytics for Chinese language and market</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Experience Section -->
-    <section id="journey">
+    <!-- Experiences Section -->
+    <section id="experiences">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Journey</h2>
-                    <h3 class="section-subheading text-muted">I'm just a city boy, though not from South Detroit.</h3>
+                    <h2 class="section-heading">Experiences</h2>
+                    <h3 class="section-subheading text-muted">Printer-friendly <a href="cv" title="résumé">CV</a> is also available</h3>
                 </div>
             </div>
             <div class="row">
@@ -201,11 +229,7 @@
                     <ul class="timeline">
                         <li class="timeline">
                             <div class="timeline-image">
-                                <h4>
-                                    2016<br />
-                                    -<br />
-                                    Present
-                                </h4>
+                                <h4><br />2016-</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -213,17 +237,15 @@
                                     <h4 class="subheading">Python Developer</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Developed backend RESTful API for dating application with scalable matching algorithm using Python and MongoDB.</p>
+                                    <ul class="text-muted">
+                                        <li>Developed backend RESTful API for dating application with scalable matching algorithm using Python and MongoDB</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>
-                                    2014<br />
-                                    -<br />
-                                    2015
-                                </h4>
+                                <h4><br />2014-15</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -231,18 +253,20 @@
                                     <h4 class="subheading">Data Engineer</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Architected data pipeline for processing over 500M data points a day with Python and Redis Queue. Created RESTful realtime reporting API using Flask, Aerospike, and Amazon Redshift. Developed web application for analyzing Facebook and Instagram marketing contents with Python, Redis Queue, and MongoDB. Developed an MVP within 2 weeks for company pivot during TechStars Accelerator program. Supported existing mobile advertisement web application in Django and MongoDB
-Enriched raw mobile data with external information.</p>
+                                    <ul class="text-muted">
+                                        <li>Architected data pipeline for processing over 500M data points a day with Python and Redis Queue</li>
+                                        <li>Created RESTful realtime reporting API using Flask, Aerospike, and Amazon Redshift</li>
+                                        <li>Developed web application for analyzing Facebook and Instagram marketing contents with Python, Redis Queue, and MongoDB</li>
+                                        <li>Developed an MVP within 2 weeks for company pivot during TechStars Accelerator program</li>
+                                        <li>Supported existing mobile advertisement web application in Django and MongoDB</li>
+                                        <li>Enriched raw mobile data with external information</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
-                        <li>
+                        <li class="timeline">
                             <div class="timeline-image">
-                                <h4>
-                                    2013<br />
-                                    -<br />
-                                    2014
-                                </h4>
+                                <h4><br />2013-14</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -250,17 +274,17 @@ Enriched raw mobile data with external information.</p>
                                     <h4 class="subheading">Data Scientist</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Developed MVP through rapid iterations using Python and NLP technology. Consulted as NLP and machine learning specialist. Determined technical requirements from business requirements.</p>
+                                    <ul class="text-muted">
+                                        <li>Developed MVP through rapid iterations using Python and NLP technology</li>
+                                        <li>Consulted as NLP and machine learning specialist</li>
+                                        <li>Determined technical requirements from business requirements</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>
-                                    2012<br />
-                                    -<br />
-                                    2013
-                                </h4>
+                                <h4><br />2012-13</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -268,17 +292,21 @@ Enriched raw mobile data with external information.</p>
                                     <h4 class="subheading">Founder, CTO</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Managed product development, determined success requirements, and conducted necessary market research. Developed proprietary NLP and machine learning engine for analyzing the Chinese language in Python. Developed web application for delivering social intelligence using Flask, CouchDB, and D3.js. Created infrastructure to acquire and process Weibo (Chinese Twitter) data. Engage with sales prospects and support existing clients as technical consult. Represented the team in conferences and media. Onboarded and trained new hires.</p>
+                                    <ul class="text-muted">
+                                        <li>Managed product development, determined success requirements, and conducted necessary market research</li>
+                                        <li>Developed proprietary NLP and machine learning engine for analyzing the Chinese language in Python</li>
+                                        <li>Developed web application for delivering social intelligence using Flask, CouchDB, and D3.js</li>
+                                        <li>Created infrastructure to acquire and process Weibo (Chinese Twitter) data</li>
+                                        <li>Engage with sales prospects and support existing clients as technical consult</li>
+                                        <li>Represented the team in conferences and media</li>
+                                        <li>Onboarded and trained new hires</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline">
                             <div class="timeline-image">
-                                <h4>
-                                    2010<br />
-                                    -<br />
-                                    2012
-                                </h4>
+                                <h4><br />2010-12</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -286,17 +314,17 @@ Enriched raw mobile data with external information.</p>
                                     <h4 class="subheading">Developer</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Developed public facing RESTful search API in C# .NET and RabbitMQ. Maintained and upgraded web scraping framework for acquiring travel data in Python and PostgreSQL. Created and updated scrapers in Python for individual airline websites. Support production web scraper pool in CentOS.</p>
+                                    <ul class="text-muted">
+                                        <li>Developed public facing RESTful search API in C# .NET and RabbitMQ</li>
+                                        <li>Maintained and upgraded web scraping framework for acquiring travel data in Python and PostgreSQL</li>
+                                        <li>Created and updated scrapers in Python for individual airline websites. Support production web scraper pool in CentOS</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>
-                                    2009<br />
-                                    -<br />
-                                    2010
-                                </h4>
+                                <h4><br />2009-10</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -304,17 +332,17 @@ Enriched raw mobile data with external information.</p>
                                     <h4 class="subheading">MSc, Artificial Intelligence, Learning from Data</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Finalist for 2010 Scottish Institute for Enterprise New Idea Competition in Science, Engineering, Technology category. Learned and developed in Prolog for the MSc dissertation. Dissertation in Experience Sharing for Ontology Repair System.</p>
+                                    <ul class="text-muted">
+                                        <li>Finalist for 2010 Scottish Institute for Enterprise New Idea Competition in Science, Engineering, Technology category</li>
+                                        <li>Learned and developed in Prolog for the MSc dissertation</li>
+                                        <li>Dissertation in Experience Sharing for Ontology Repair System</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline">
                             <div class="timeline-image">
-                                <h4>
-                                    2007<br />
-                                    -<br />
-                                    2009
-                                </h4>
+                                <h4><br />2007-09</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -322,17 +350,17 @@ Enriched raw mobile data with external information.</p>
                                     <h4 class="subheading">Software Engineer</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Automated tests for Window based application. Built test cases for testing web vulnerability scanner using C# .NET. Supported internal procurement web application with Java.</p>
+                                    <ul class="text-muted">
+                                        <li>Automated tests for Window based application</li>
+                                        <li>Built test cases for testing web vulnerability scanner using C# .NET</li>
+                                        <li>Supported internal procurement web application with Java</li>
+                                    </ul>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>
-                                    2003<br />
-                                    -<br />
-                                    2007
-                                </h4>
+                                <h4><br />2003-07</h4>
                             </div>
                             <div class="timeline-panel">
                                 <div class="timeline-heading">
@@ -352,8 +380,8 @@ Enriched raw mobile data with external information.</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading text-muted">Arts</h2>
-                    <h3 class="section-subheading text-muted">I am also an illustrator, publishing as <a href="http://illustrated.whosbacon.com/" target="_blank">Chic Geek Illustrated</a>.</h3>
+                    <h2 class="section-heading heading-inverted">Arts</h2>
+                    <h3 class="section-subheading heading-inverted">I am also an illustrator, publishing as <a href="http://illustrated.whosbacon.com/" target="_blank">Chic Geek Illustrated</a></h3>
                 </div>
             </div>
             <div class="row">
@@ -365,17 +393,18 @@ Enriched raw mobile data with external information.</p>
     </section>
 
     <!-- Socal Aside -->
-    <aside>
+    <aside id="social">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <a class="btn btn-lg" href="https://twitter.com/whosbacon"><i class="fa fa-twitter fa-2x"></i></a>
-                    <a class="btn btn-lg" href="https://github.com/whosken/"><i class="fa fa-github fa-2x"></i></a>
-                    <a class="btn btn-lg" href="https://www.linkedin.com/in/kenhu"><i class="fa fa-linkedin fa-2x"></i></a>
-                    <a class="btn btn-lg" href="https://medium.com/@whosbacon"><i class="fa fa-medium fa-2x"></i></a>
-                    <a class="btn btn-lg" href="https://www.instagram.com/chicgeekillustrated/"><i class="fa fa-instagram fa-2x"></i></a>
-                    <a class="btn btn-lg" href="https://angel.co/kenhu"><i class="fa fa-angellist fa-2x"></i></a>
-                    <a class="btn btn-lg" href="mailto:whosbacon@gmail.com"><i class="fa fa-envelope fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://twitter.com/whosbacon" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://github.com/whosken/" title="Github"><i class="fa fa-github fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://www.linkedin.com/in/kenhu" title="LinkedIn"><i class="fa fa-linkedin fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://medium.com/@whosbacon" title="Medium"><i class="fa fa-medium fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://www.instagram.com/chicgeekillustrated/" title="Instagram"><i class="fa fa-instagram fa-2x"></i></a>
+                    <a class="btn btn-lg" href="https://angel.co/kenhu" title="AngelList"><i class="fa fa-angellist fa-2x"></i></a>
+                    <a class="btn btn-lg" href="http://vagabond.whosbacon.com" title="Travel"><i class="fa fa-globe fa-2x"></i></a>
+                    <a class="btn btn-lg" href="mailto:whosbacon@gmail.com" title="Email"><i class="fa fa-envelope fa-2x"></i></a>
                 </div>
             </div>
         </div>
@@ -386,41 +415,14 @@ Enriched raw mobile data with external information.</p>
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading heading-inverted">Contact</h2>
+                    <h3 class="section-subheading heading-inverted">Let's work togther!</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <form name="sentMessage" id="contactForm" novalidate>
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="form-group">
-                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="form-group">
-                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
-                            <div class="clearfix"></div>
-                            <div class="col-lg-12 text-center">
-                                <div id="success"></div>
-                                <button type="submit" class="btn btn-xl">Send Message</button>
-                            </div>
-                        </div>
-                    </form>
+                <div class="col-lg-8 col-lg-offset-2 text-center outro-body">
+                    <p>I am available for contract or collaboration. Please don't hestitate to reach out to me if you have any questions, comments, or requests!</p>
+                    <p><a class="btn btn-primary" href="mailto:whosbacon@gmail.com" target="_blank">whosbacon@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -430,7 +432,7 @@ Enriched raw mobile data with external information.</p>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <span class="copyright">Made with <i class="fa fa-heart"></i> by <a href="http://whosbacon.com/" target="_blank">Ken Hu</a>. Copyright © 2016. All Rights Reserved</span>
+                    <span class="copyright">Made with <i class="fa fa-heart"></i> by <a href="#page-top" class="page-scroll">Ken Hu</a>. Copyright © 2016. All Rights Reserved</span>
                 </div>
             </div>
         </div>
@@ -439,8 +441,7 @@ Enriched raw mobile data with external information.</p>
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="portfolio-modal modal fade" id="portfolio-soshio" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
                 <div class="lr">
@@ -453,71 +454,20 @@ Enriched raw mobile data with external information.</p>
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                            <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                            <p>
-                                <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
+                            <h2>Soshio</h2>
+                            <p class="item-intro text-muted">Social analytics for Chinese language and market</p>
+                            <img class="img-responsive img-centered" src="img/soshio.png" alt="">
                             <ul class="list-inline">
-                                <li>Date: July 2014</li>
-                                <li>Client: Round Icons</li>
-                                <li>Category: Graphic Design</li>
+                                <li>2012-2013</li>
+                                <li>Founder, CTO</li>
+                                <li>Bootstrapped SaaS Startup</li>
                             </ul>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <h2>Project Heading</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                            <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                            <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h2>Project Name</h2>
-                            <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                            <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                            <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                            <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            <p>For my previous startup, I've built a social analytics product with a bespoke NLP engine to analyze the Chinese social media. It would collect the social conversations surround a keyword and determine the prevailing emotions.</p>
+                            <p>I developed the core text mining engine to extract sentiment and emotions from text. Working with a language very different from English presented challenges not covered by the popular tools. I was able to explore new techniques for this problem.</p>
+                            <p>The task was further complicated by the data size which was required to ingest. At nearly 1M weekly, there are a lot of data to acquire and process through the language engine. I achieved this by leveraging crawler queues and analytics workers.</p>
+                            <p>To effectively communicate the results, I used visualization tools, from basic trend plot to more complex heat maps. Users are able to drill into the analytics to compare results across social keywords. With responsive design, users can also access it on devices of all sizes.</p>
+                            <p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
                 </div>

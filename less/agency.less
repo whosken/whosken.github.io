@@ -67,6 +67,7 @@ h1, h2, h3, h4, h5, h6 {
 	.button-variant(white; @brand-primary; @brand-primary);
 	.heading-font;
 	font-weight: 700;
+    color: @gray-darkest;
 }
 
 .btn-xl {
@@ -129,7 +130,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 	.navbar-nav>.active>a {
 		border-radius: 0;
-		color: white;
+		color: @gray-darkest;
 		background-color: @brand-primary;
 	}
 	.navbar-nav>.active>a:hover,
@@ -167,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background.jpg');
+	background-image: linear-gradient(rgba(9,6,1, 0.6), rgba(9,6,1, 0.6)), url('../img/background.jpg');
 	background-repeat: none;
 	background-attachment: scroll;
 	background-position: center bottom;
@@ -190,7 +191,7 @@ header {
 			font-size: 50px;
 			line-height: 50px;
 			margin-bottom: 25px;
-            color: #fed136;
+            color: @brand-primary;
 		}
 	}
 }
@@ -212,14 +213,24 @@ section {
 		font-size: 40px;
 		margin-top: 0;
 		margin-bottom: 15px;
+        &.heading-inverted {
+            color: white;
+        }
     }
     h3.section-subheading {
-		font-size: 16px;
-		.serif-font;
+        .script-font;
+        color: @gray;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
 		text-transform: none;
-		font-style: italic;
-		font-weight: 400;
 		margin-bottom: 75px;
+        &.heading-inverted {
+            color: @gray-lighter;
+        }
+        a {
+            font-weight: 700;
+        }
     }
 }
 
@@ -242,6 +253,11 @@ section {
     .portfolio-item {
         margin: 0 0 15px;
         right: 0;
+        img {
+            text-align: center;
+            vertical-align: middle;
+            min-width: 100%;
+        }
         .portfolio-link {
             display: block;
             position: relative;
@@ -364,7 +380,7 @@ section {
             position: absolute;
             z-index: 100;
             background-color: @brand-primary;
-            color: white;
+            color: @gray-darkest;
             border-radius: 100%;
             border: 7px solid #f1f1f1;
             text-align: center;
@@ -408,6 +424,8 @@ section {
 		> p,
 		> ul {
 			margin-bottom: 0;
+            padding: 0;
+            list-style: none;
 		}
 	}
 }
@@ -523,13 +541,18 @@ aside.clients {
 
 section#contact {
 	background-color: @gray-darkest;
-	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/background2.jpg');
+	background-image: linear-gradient(rgba(9,6,1, 0.8), rgba(9,6,1, 0.8)), url('../img/background2.jpg');
 	background-position: center;
     background-size: cover;
 	background-repeat: no-repeat;
-	.section-heading {
-		color: white;
-	}
+    .outro-body p {
+        .script-font;
+        color: @brand-primary;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 22px;
+        margin-bottom: 25px;
+    }
 	.form-group {
 		margin-bottom: 25px;
 		input,
