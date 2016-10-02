@@ -173,13 +173,13 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="https://decisive.is" class="portfolio-link">
+                    <a href="#portfolio-decisive" class="portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
-                                <i class="fa fa-external-link fa-3x"></i>
+                                <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/decisive.jpg" class="img-responsive" alt="">
+                        <img src="img/soshio.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
                         <h4>Decisive</h4>
@@ -434,6 +434,38 @@
     <!-- Portfolio Modals -->
     <!-- Use the modals below to showcase details about your portfolio projects! -->
 
+    <div class="portfolio-modal modal fade" id="portfolio-decisive" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <h2>Soshio</h2>
+                            <p class="item-intro text-muted">Social analytics for multimedia contents</p>
+                            <img class="img-responsive img-centered" src="img/decisive.jpg" alt="">
+                            <ul class="list-inline">
+                                <li>2014-2015</li>
+                                <li>Data Engineer</li>
+                            </ul>
+                            <p>I was part of a fantastic startup, working directly with founders David Dundas and Ryan Witt. During my time there, we went through a product pivot, from a self-serve mobile advertising plateform to a social content analytics product. These presented different challenges and allowed me to grow both in breadth and depth.</p>
+                            <p>For the advertising platform, I developed a data pipeline to consume more than 500M events daily. It processed in nearly realtime, with less 1 hour from ingestion to the RESTful API. The endpoints were further designed for efficient reporting and data analysis.</p>
+                            <p>During the pivot to social analytics, I delivered an analytics dashboard MVP within two weeks. The MVP includes an extract-transform-load pipeline for numerous social platforms. The collected social contents were profiled into various parameters for the data science team to model.</p>
+ collected                            <p>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     <div class="portfolio-modal modal fade" id="portfolio-soshio" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-content">
             <div class="close-modal" data-dismiss="modal">
@@ -455,7 +487,7 @@
                                 <li>Founder, CTO</li>
                                 <li>Bootstrapped SaaS Startup</li>
                             </ul>
-                            <p>For my previous startup, I've built a social analytics product with a bespoke NLP engine to analyze the Chinese social media. It would collect the social conversations surround a keyword and determine the prevailing emotions.</p>
+                            <p>For my previous startup, I've built a social analytics product with a bespoke NLP engine to analyze the Chinese social media. It collected the social conversations surround a keyword and determined the prevailing emotions.</p>
                             <p>I developed the core text mining engine to extract sentiment and emotions from text. Working with a language very different from English presented challenges not covered by the popular tools. I was able to explore new techniques for this problem.</p>
                             <p>The task was further complicated by the data size which was required to ingest. At nearly 1M weekly, there are a lot of data to acquire and process through the language engine. I achieved this by leveraging crawler queues and analytics workers.</p>
                             <p>To effectively communicate the results, I used visualization tools, from basic trend plot to more complex heat maps. Users are able to drill into the analytics to compare results across social keywords. With responsive design, users can also access it on devices of all sizes.</p>
